@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1279be">
+
+    <Button
+        android:id="@+id/biodata_hasin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg1"
+        android:text="Hasin"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/biodata_labib"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="M.Labib"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:layout_below="@id/biodata_hasin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/biodata_syarif"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="Syarif"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:layout_below="@id/biodata_labib"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+
+</RelativeLayout>

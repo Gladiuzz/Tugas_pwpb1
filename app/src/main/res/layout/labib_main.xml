@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/bgbaru">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/avatar"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="108dp"
+                android:text="Mr. Labib"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/labelWallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="102dp"
+                android:text="USD Wallet"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Main Menus" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Review" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/network" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Network" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/destek" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plugins" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/rows" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Apps" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/roo"
+            android:layout_marginTop="-30dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Need a Guide?"
+            android:textStyle="bold"
+            android:textSize="12pt"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="We will give directions to the new user"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Guide Me"
+            android:background="@drawable/button_style"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
